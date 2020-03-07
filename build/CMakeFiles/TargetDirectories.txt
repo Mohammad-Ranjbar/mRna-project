@@ -1,0 +1,3 @@
+/mnt/d/mRNA-master/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/mRNA-master/build/CMakeFiles/MAERI_Mapper.dir
+/mnt/d/mRNA-master/build/CMakeFiles/edit_cache.dir

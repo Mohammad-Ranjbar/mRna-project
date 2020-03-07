@@ -1,0 +1,39 @@
+MAERI Configuration: 
+Layer variables: 
+X = 13
+Y = 13
+C = 256
+K = 384
+N = 32
+X' = 13
+Y' = 13
+R = 3
+S = 3
+Mapping kernel (tile): 
+T_X = 3
+T_Y = 3
+T_C = 1
+T_K = 28
+T_N = 1
+T_X' = 1
+T_Y' = 1
+Virtual Neuron : 
+VN_Size = 9
+Num_VN = 28
+Loops outside the tile: 
+R/T_X = 1
+S/T_Y = 1
+C/T_C = 256
+C/T_K = 13
+C/T_N = 32
+C/T_OX = 13
+C/T_OY = 13
+R%T_X = 0
+S%T_Y = 0
+C%T_C = 0
+K%T_K = 20
+N%T_N = 0
+X'%T_OX = 0
+Y'%T_OY = 0
+Outer loop order (from outermost to innermost): N->C->K->X'->Y' 
+Total_iteration = 19382272
